@@ -10,6 +10,10 @@ namespace CFS
     {
         static void Main(string[] args)
         {
+            var password = "1234";
+            var result = Cryptography.CFS(password);
+            Console.WriteLine(result);
         }
+
     }
 }
